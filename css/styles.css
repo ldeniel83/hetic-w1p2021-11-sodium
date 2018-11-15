@@ -53,21 +53,18 @@ header {
   display: grid;
   grid-column: 1 / span 2;
   grid-row: 2;
-  min-height: 100vh;
 }
 
 .rafale {
   display: grid;
   grid: 1 / span 2, 3;
-  grid-row: 3;
-  min-height: 100vh;
+  grid-row: 2;
 }
 
 .vehra {
   display: grid;
   grid-column: 1 / span 2, 4;
   grid-row: 4;
-  min-height: 100vh;
 }
 
 .history {
@@ -103,12 +100,12 @@ img {
 
 header {
   background-image: url("../medias/sky.png");
-  overflow: auto;
   position: relative;
   height: 100vh;
   left: 0px;
   top: 0px;
-  min-height: 100vh webkit-background-size: cover;
+  min-height: 100vh;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -150,10 +147,12 @@ h1:after {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: rotate(90deg);
+  filter: invert(100%);
 }
 
 .center img {
-  width: 5%;
+  width: 2%;
 }
 
 .articles {
@@ -189,7 +188,7 @@ h1:after {
   font-size: 28px;
   text-transform: uppercase;
   color: white;
-  font-weight: lighter;
+  font-weight: bold;
   letter-spacing: 1.5px;
   text-align: center;
   display: flex;
@@ -212,8 +211,6 @@ h1:after {
   height: 430px;
   padding-left: 27px;
   background: white;
-  margin-left: 200px;
-  margin-top: 200px;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.50);
   float: right;
 }
@@ -270,10 +267,10 @@ h1:after {
   z-index: 1;
   width: 735px;
   height: 435px;
-  position: relative;
+  position: absolute;
   background: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 32px;
+  margin-left: 850px;
   background-image: url("../medias/rafale4.jpg");
   webkit-background-size: cover;
   -moz-background-size: cover;
@@ -284,11 +281,10 @@ h1:after {
 }
 
 #button2 {
-  position: absolute;
   font-size: 28px;
   text-transform: uppercase;
   color: white;
-  font-weight: lighter;
+  font-weight: bold;
   letter-spacing: 1.5px;
   text-align: center;
   display: flex;
@@ -297,10 +293,10 @@ h1:after {
   z-index: 2;
   width: 250px;
   height: 75px;
-  bottom: -582px;
+  position: fixed;
+  bottom: -1185px;
+  left: 1370px;
   border-radius: 5px;
-  margin-bottom: -862px;
-  margin-left: 1352px;
   background: #25993F;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.50);
 }
@@ -314,7 +310,6 @@ h1:after {
   margin-left: 50px;
   margin-top: 50px;
   margin-right: 200px;
-  margin-top: 200px;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.50);
 }
 
@@ -378,7 +373,7 @@ h1:after {
   margin-top: 15px;
   margin-bottom: 15px;
   background-image: url("../medias/falcon4.jpg");
-  webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -387,11 +382,10 @@ h1:after {
 }
 
 #button3 {
-  position: absolute;
   font-size: 28px;
   text-transform: uppercase;
   color: white;
-  font-weight: lighter;
+  font-weight: bold;
   letter-spacing: 1.5px;
   text-align: center;
   display: flex;
@@ -400,7 +394,7 @@ h1:after {
   z-index: 2;
   width: 250px;
   height: 75px;
-  bottom: -2310px;
+  bottom: -1759px;
   position: absolute;
   border-radius: 5px;
   margin-left: 525px;
@@ -414,8 +408,7 @@ h1:after {
   height: 430px;
   padding-left: 27px;
   background: white;
-  margin-left: 200px;
-  margin-top: 200px;
+  margin-left: 50px;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.50);
   float: right;
 }
@@ -490,4 +483,5 @@ h1:after {
   color: white;
   margin-left: auto;
   margin-right: auto;
+  bottom: 25px;
 }
