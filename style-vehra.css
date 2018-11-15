@@ -138,6 +138,11 @@ footer {
   margin-right: 20%;
   margin-left: 20%;
 }
+
+.w1 {
+  font-weight: bold;
+  font-size: 40px;
+}
 .menu {
   width: 27px;
   height: 27px;

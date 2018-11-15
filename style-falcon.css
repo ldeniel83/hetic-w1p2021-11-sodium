@@ -33,6 +33,10 @@
   src: local('fonts/Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
 }
 
+img {
+  max-width: 100%;
+}
+
 section {
   font-family: 'gilroy';
   color: #333333;
@@ -112,6 +116,11 @@ article {
   grid-column-start: 2;
 }
 
+.menu {
+  width: 27px;
+  width: 27px;
+}
+
 footer {
   grid-column: 1 / span 2;
   grid-row: 8;
@@ -138,3 +147,4 @@ footer {
   margin-right: 20%;
   margin-left: 20%;
 }
+
