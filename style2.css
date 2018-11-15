@@ -4,8 +4,7 @@
   font-weight: bold;
   src: local('font/Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
 }
-  
-  
+
 @font-face {
   font-family: 'Gilroy-Heavy ☞';
   font-style: normal;
@@ -13,31 +12,26 @@
   src: local('font/Gilroy-Heavy ☞'), url('Gilroy-Heavy.woff') format('woff');
 }
 
-  
 @font-face {
   font-family: 'Gilroy-Light ☞';
   font-style: normal;
   font-weight: lighter;
   src: local('font/Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
 }
-  
-  
+
 @font-face {
   font-family: 'Gilroy-Medium ☞';
   font-style: normal;
   font-weight: normal;
   src: local('font/Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
 }
-  
-  
+
 @font-face {
   font-family: 'Gilroy-Regular ☞';
   font-style: normal;
   font-weight: normal;
   src: local('font/Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
 }
-
-
 
 * {
   box-sizing: border-box;
@@ -48,7 +42,7 @@ img {
 }
 
 body {
-  font-family:'Gilroy';
+  font-family: 'Gilroy';
   color: #333333;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -57,14 +51,14 @@ body {
 
 header {
   grid-column: 1/ span 2;
-  grid-row: 1;  
-  position: relative; 
+  grid-row: 1;
+  position: relative;
 }
 
 .news {
   position: absolute;
-  color:white;
-  font-size: 30px; 
+  color: white;
+  font-size: 30px;
   right: 20px;
   top: 24px;
   text-transform: uppercase;
@@ -86,13 +80,13 @@ h1 {
 }
 
 .imgArticle {
-  grid-column: 1 / span 2; 
-  grid-row: 2; 
+  grid-column: 1 / span 2;
+  grid-row: 2;
 }
 
 .textArticle {
-  grid-column: 1 / span 2; 
-  grid-row: 3; 
+  grid-column: 1 / span 2;
+  grid-row: 3;
   margin: 15px;
   font-size: 15px;
 }
@@ -104,7 +98,7 @@ h1 {
 article {
   grid-column: 1/ span 2;
   grid-row: 3;
-  display: grid; 
+  display: grid;
   font-size: 14px;
 }
 
@@ -118,21 +112,20 @@ h2 {
 }
 
 .readToo {
-  color:#D8D8D8;
+  color: #D8D8D8;
 }
 
 .imgArticle2 {
   grid-column: 1/span 2;
-  grid-row: 2; 
+  grid-row: 2;
   max-width: 100%;
 }
 
 .textArticle2 {
   grid-column: 1/ span 2;
   grid-row: 3;
-  font-size: 14; 
+  font-size: 14;
   line-height: 16pt;
-  
 }
 
 .arrow {
@@ -141,19 +134,15 @@ h2 {
   width: 24px;
   height: 16px;
   margin-left: 90%;
-
 }
-
-
 
 aside {
   grid-column: 1/ span 2;
   grid-row: 4;
-  background-color:#333333;
+  background-color: #333333;
   display: grid;
   position: relative;
 }
-
 
 .newsletter {
   grid-column: 1/ span 2;
@@ -163,7 +152,7 @@ aside {
 
 .inscription {
   font-size: 20px;
-  color:white;
+  color: white;
   margin-top: 28px;
   margin-left: 30px;
   text-transform: uppercase;
@@ -174,7 +163,7 @@ aside {
 }
 
 .email {
-  color:#D8D8D8;
+  color: #D8D8D8;
   position: absolute;
   top: 70px;
   left: 24px;
@@ -186,15 +175,17 @@ aside {
   margin-left: 24px;
   margin-right: 12px;
 }
+
 .check {
   border: 2px #D8D8D8 solid;
   border-radius: 3px;
   width: 15px;
-  height: 15px; 
+  height: 15px;
   position: absolute;
   left: 25px;
   bottom: 30px;
 }
+
 .accept {
   font-size: 12px;
   color: #D8D8D8;
@@ -202,6 +193,7 @@ aside {
   left: 45px;
   bottom: 36px;
 }
+
 .conditions {
   font-size: 12px;
   color: #D8D8D8;
@@ -220,17 +212,16 @@ aside {
   padding-top: 3px;
   padding-left: 8px;
   text-transform: uppercase;
-  background-color:white;
+  background-color: white;
   font-size: 12px;
-  color:#333333;
-
+  color: #333333;
 }
 
 .follow {
   grid-column: 1/ span 2;
   grid-row: 2;
   font-size: 24px;
-  color:white;
+  color: white;
   justify-self: center;
   align-self: end;
   text-transform: uppercase;
@@ -244,8 +235,8 @@ aside {
   align-self: end;
   margin-left: 26px;
   margin-bottom: 10px;
-
 }
+
 .network {
   width: 22px;
   height: 22px;
@@ -253,30 +244,24 @@ aside {
   align-self: end;
 }
 
-
 footer {
   grid-column: 1 / span 2;
   grid-row: 5;
-  background-color:#333333;
-  bottom: 0%; 
-  width : 100vw;
+  background-color: #333333;
+  bottom: 0%;
+  width: 100vw;
   height: 45px;
   display: flex;
   justify-content: space-around;
   position: fixed;
   align-items: center;
- }
+}
 
 .menu {
-  width: 27px; 
+  width: 27px;
   height: 27px;
 }
 
 /* vérifier les font-size */
-
 /* faire le responsive */
-
 /* mettre tous les liens*/
-
-
-

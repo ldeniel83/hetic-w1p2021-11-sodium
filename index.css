@@ -1,182 +1,179 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Gilroy-Bold ☞';
-    font-style: bold;
-    font-weight: normal;
-    src: local('fonts/Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+  font-family: 'Gilroy-Bold ☞';
+  font-style: bold;
+  font-weight: normal;
+  src: local('fonts/Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
 }
-  
+
 @font-face {
-    font-family: 'Gilroy-Heavy ☞';
-    font-style: heavy;
-    font-weight: normal;
-    src: local('fonts/Gilroy-Heavy ☞'), url('Gilroy-Heavy.woff') format('woff');
+  font-family: 'Gilroy-Heavy ☞';
+  font-style: heavy;
+  font-weight: normal;
+  src: local('fonts/Gilroy-Heavy ☞'), url('Gilroy-Heavy.woff') format('woff');
 }
-  
+
 @font-face {
-    font-family: 'Gilroy-Light ☞';
-    font-style: light;
-    font-weight: normal;
-    src: local('fonts/Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
+  font-family: 'Gilroy-Light ☞';
+  font-style: light;
+  font-weight: normal;
+  src: local('fonts/Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
 }
-  
+
 @font-face {
-    font-family: 'Gilroy-Medium ☞';
-    font-style: medium;
-    font-weight: normal;
-    src: local('fonts/Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
+  font-family: 'Gilroy-Medium ☞';
+  font-style: medium;
+  font-weight: normal;
+  src: local('fonts/Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
 }
-  
+
 @font-face {
-    font-family: 'Gilroy-Regular ☞';
-    font-style: normal;
-    font-weight: normal;
-    src: local('fonts/Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
+  font-family: 'Gilroy-Regular ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('fonts/Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
 }
-  
+
 body {
-    font-family: 'Gilroy';
+  font-family: 'Gilroy';
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 header {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
-
 .higher {
-    text-align: right;
-    color: white;
-    text-transform: uppercase;
+  text-align: right;
+  color: white;
+  text-transform: uppercase;
 }
 
 .plane {
-    transform: rotate(-45deg);
-    position: absolute;
-    left:center;
-    top:50px;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: center;
+  top: 50px;
 }
 
 .title {
-    text-align: center;
-    margin-bottom: 0;
-    margin-top:20px;
-    text-transform: uppercase;
-    font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
-h2{
-font-weight: bold;
+h2 {
+  font-weight: bold;
 }
 
 .plane-picture {
-    margin:5px 15px;
+  margin: 5px 15px;
 }
 
 figcaption {
-    font-size: 12px;
-    text-align: left;
-    position: relative;
-    margin:20px;
+  font-size: 12px;
+  text-align: left;
+  position: relative;
+  margin: 20px;
 }
 
 .director {
-    position: absolute;
-    right: 15px;
-    bottom: -5px;
+  position: absolute;
+  right: 15px;
+  bottom: -5px;
 }
 
 .picture-article {
-    margin-top:5px;
+  margin-top: 5px;
 }
 
 .plane-article {
-    position: relative;
+  position: relative;
 }
 
-.button { 
-    text-transform: uppercase;
-    font-size:12px;
-    color:white;
-    background:#004E8D;
-    width: 80px;
-    padding: 0.5em;
-    position: absolute;
-    bottom:-10px;
-    right:30px;
-    border-radius: 5px;
-  }
-
-.button2 { 
-    text-transform: uppercase;
-    font-size:12px;
-    color:white;
-    background:#25993F;
-    width: 80px;
-    padding: 0.5em;
-    position: absolute;
-    bottom:-10px;
-    left:30px;
-    border-radius: 5px;
+.button {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  background: #004E8D;
+  width: 80px;
+  padding: 0.5em;
+  position: absolute;
+  bottom: -10px;
+  right: 30px;
+  border-radius: 5px;
 }
 
-.button3 { 
-    text-transform: uppercase;
-    font-size:12px;
-    color:white;
-    background: orange;
-    width: 80px;
-    padding: 0.5em;
-    position: absolute;
-    bottom:-10px;
-    right:30px;
-    border-radius: 5px;
+.button2 {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  background: #25993F;
+  width: 80px;
+  padding: 0.5em;
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+  border-radius: 5px;
+}
+
+.button3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  background: orange;
+  width: 80px;
+  padding: 0.5em;
+  position: absolute;
+  bottom: -10px;
+  right: 30px;
+  border-radius: 5px;
 }
 
 .history {
-     background: linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
-    ), url("img/history-picture.jpg");
-    background-size: cover;
-    background-repeat:no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)), url("img/history-picture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .title-history {
-    color: white;
-    text-align: center;
-    margin-bottom: 0;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .text-history {
-    font-size: 12px;
-    margin-bottom: 20px;
-    color: white;
-    margin-top: 10px;
-    padding: 10px;
-    margin-top:0;
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  margin-top: 0;
 }
 
 span {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 footer {
-    grid-column: 1 / span 2;
-    grid-row: 8;
-    background-color:#333333;
-    bottom: 0%; 
-    width : 100vw;
-    height: 45px;
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
-    align-items: center;
-   }
+  grid-column: 1 / span 2;
+  grid-row: 8;
+  background-color: #333333;
+  bottom: 0%;
+  width: 100vw;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  align-items: center;
+}
