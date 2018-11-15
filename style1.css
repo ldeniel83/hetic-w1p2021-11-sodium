@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'Gilroy-Bold ☞';
+  font-style: normal;
+  font-weight: bold;
+  src: local('font/Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+}
+  
+  
+@font-face {
+  font-family: 'Gilroy-Heavy ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('font/Gilroy-Heavy ☞'), url('Gilroy-Heavy.woff') format('woff');
+}
+  
+  
+@font-face {
+  font-family: 'Gilroy-Light ☞';
+  font-style: normal;
+  font-weight: lighter;
+  src: local('font/Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
+}
+  
+  
+@font-face {
+  font-family: 'Gilroy-Medium ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('font/Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
+}
+  
+  
+@font-face {
+  font-family: 'Gilroy-Regular ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('font/Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+  font-family:'Gilroy';
+  color: #333333;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto 44px;
+  grid-gap: 10px;
+}
+
+header {
+  grid-column: 1/ span 2;
+  grid-row: 1;  
+  position: relative; 
+}
+
+.news {
+  position: absolute;
+  color:white;
+  font-size: 30px; 
+  right: 20px;
+  top: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main {
+  grid-column: 1/ span 2;
+  grid-row: 2; 
+}
+
+h1 {
+  margin-top: 5px;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: bold; 
+}
+
+.imgArticle {
+
+}
+
+.textArticle {
+  margin: 15px;
+  font-size: 15px;
+}
+
+.textArticle p {
+  margin-bottom: 15px;
+}
+
+article {
+  grid-column: 1/ span 2;
+  display: grid; 
+  grid-row-gap: 5px;
+  font-size: 14px;
+}
+
+h2 {
+  align-self: end;
+  text-transform: uppercase;
+  margin-left: 15px;
+  font-size: 15px;
+}
+.readToo {
+  color:#D8D8D8;
+}
+
+.imgArticle2 {
+  grid-row: 4;
+  max-width: 100%;
+}
+
+.textArticle2 {
+  grid-row: 6;
+  font-size: 14; 
+  line-height: 16pt;
+  
+}
+
+.arrow {
+grid-row: 5;
+z-index: 2;
+width: 24px;
+height: 16px;
+margin-left: 90%;
+
+}
+
+
+
+aside {
+  grid-column: 1/ span 2;
+  grid-row: 4;
+  background-color:#333333;
+  position: relative;
+}
+
+
+.newsletter {
+  position: relative;
+}
+
+.inscription {
+  font-size: 20px;
+  color:white;
+  margin-top: 28px;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.new {
+  font-weight: bold;
+}
+
+.email {
+  color:#D8D8D8;
+  position: absolute;
+  top: 70px;
+  left: 24px;
+}
+
+.line {
+  border-bottom: 1px #D8D8D8 solid;
+  margin-top: 50px;
+  margin-left: 24px;
+  margin-right: 12px;
+}
+.check {
+  border: 2px #D8D8D8 solid;
+  border-radius: 3px;
+  width: 15px;
+  height: 15px; 
+  position: absolute;
+  left: 25px;
+  bottom: 30px;
+}
+.accept {
+  font-size: 12px;
+  color: #D8D8D8;
+  position: absolute;
+  left: 45px;
+  bottom: 36px;
+}
+.conditions {
+  font-size: 12px;
+  color: #D8D8D8;
+  position: absolute;
+  left: 45px;
+  bottom: 24px;
+}
+
+.send {
+  border: 1px #D8D8D8 solid;
+  border-radius: 5px;
+  width: 70px;
+  height: 20px;
+  margin-top: 25px;
+  margin-left: 220px;
+  padding-top: 3px;
+  padding-left: 8px;
+  text-transform: uppercase;
+  background-color:white;
+  font-size: 12px;
+  color:#333333;
+
+}
+
+.follow {
+  font-size: 24px;
+  color:white;
+  justify-self: center;
+  align-self: end;
+  text-transform: uppercase;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-self: end;
+  margin-left: 26px;
+  margin-bottom: 10px;
+
+}
+.network {
+  width: 22px;
+  height: 22px;
+  margin-right: 26px;
+  align-self: end;
+}
+
+
+footer {
+  grid-column: 1 / span 2;
+  grid-row: 5;
+  background-color:#333333;
+  bottom: 0%; 
+  width : 100vw;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  align-items: center;
+ }
+
+.menu {
+  width: 27px; 
+  height: 27px;
+}
+
+/* vérifier les font-size */
+
+/* faire le responsive */
+
+/* mettre tous les liens*/
+
+
+
+
