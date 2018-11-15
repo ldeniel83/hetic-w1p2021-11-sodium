@@ -186,3 +186,16 @@ footer {
 img{
   max-width: 100%;
 }
+
+@media (min-width: 700px) {
+  .title {
+    font-size: 30px;
+  }
+  p {
+   font-size: 23px; 
+  }
+  figcaption {
+    font-size: 19px;
+  }
+
+}
